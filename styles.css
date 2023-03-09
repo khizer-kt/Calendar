@@ -1,0 +1,50 @@
+body {
+    background-image: url("back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Shantell Sans', cursive;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: aliceblue;
+}
+  
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+  
+th {
+    background-color: lightgray;
+}
+  
+td.inactive {
+    color: gray;
+}
+  
+  td.active:hover {
+    background-color: lightblue;
+}
+.Calendar{
+    overflow: hidden;
+    position: relative;
+    left: 1100px;
+    top: 20px;
+}
+h1{
+    color: aqua;
+}
+.pick{
+    position: relative;
+    left: 1180px;
+    top: 103px;
+}
+.pick label{
+    color: gold;
+}
